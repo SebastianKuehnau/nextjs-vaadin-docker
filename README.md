@@ -58,5 +58,5 @@ docker build . -t myapp:latest
 Once the Docker image is correctly built, you can test it locally using
 
 ```
-docker run -p 8080:8080 myapp:latest
+docker run -p 3000:3000 -p 8080:8080 myapp:latest
 ```
