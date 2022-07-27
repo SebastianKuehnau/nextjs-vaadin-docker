@@ -31,6 +31,7 @@ Once the JAR file is built, you can run it using
 - `views` package in `src/main/java` contains the server-side Java views of your application.
 - `views` folder in `frontend/` contains the client-side JavaScript views of your application.
 - `themes` folder in `frontend/` contains the custom CSS styles.
+- `pages` folder for NextJs Content
 
 ## Useful links
 
@@ -60,3 +61,5 @@ Once the Docker image is correctly built, you can test it locally using
 ```
 docker run -p 3000:3000 -p 8080:8080 myapp:latest
 ```
+
+After running the docker images you can access both applications with http://<SERVERNAME>:3000 or http://<SERVERNAME>:8080 
